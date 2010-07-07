@@ -38,7 +38,7 @@ describe PagesController do
 	it "should have the right title" do
 	  get 'about'
 	  response.should have_tag("title",
-							   "Galleries | Home")
+							   "Galleries | About")
 	end # "should have the right title
   end # GET about
   
